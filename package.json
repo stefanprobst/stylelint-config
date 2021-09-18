@@ -1,6 +1,6 @@
 {
   "name": "@stefanprobst/stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "stylelint.config.js",
   "license": "MIT",
   "files": [

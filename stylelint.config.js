@@ -10,8 +10,12 @@ const config = {
     "value-no-vendor-prefix": true,
 
 		/** Limits. */
+    "alpha-value-notation": "percentage",
+    "color-function-notation": "modern",
 		"color-named": "never",
+    "color-no-hex": true,
     "font-weight-notation": "numeric",
+    "hue-degree-notation": "angle",
 
 		/** Order of keywords and nested rules. */
     "order/order": [
