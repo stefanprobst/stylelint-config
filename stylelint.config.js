@@ -32,7 +32,7 @@ const config = {
       { severity: "warning" },
     ],
 		/** Order of properties. */
-    "order//properties-order": [
+    "order/properties-order": [
       [
 				"composes",
 
