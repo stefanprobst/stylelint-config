@@ -1,6 +1,6 @@
 {
   "name": "@stefanprobst/stylelint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "stylelint.config.js",
   "license": "MIT",
   "files": [
@@ -11,7 +11,7 @@
     "format:fix": "yarn run format --write"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-prettier": "^9.0.2",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0"
   },
