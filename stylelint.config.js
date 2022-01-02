@@ -17,12 +17,16 @@ const config = {
     "font-weight-notation": "numeric",
     "hue-degree-notation": "angle",
 
+    /** Overwrite defaults from `stylelint-config-standard` to allow separate `grid-template-rows` and `grid-template-columns`. */
+    "declaration-block-no-redundant-longhand-properties": [
+      true,
+      { ignoreShorthands: ["/grid/"] },
+    ],
+
     /** Overwrite defaults from `stylelint-config-standard` to allow `#__next`. */
     "selector-id-pattern": [
       "^(_{0,2}[a-z][a-z0-9]*)(-[a-z0-9]+)*$",
-      {
-        message: "Expected id selector to be kebab-case",
-      },
+      { message: "Expected id selector to be kebab-case" },
     ],
 
     /** Order of keywords and nested rules. */
