@@ -29,6 +29,9 @@ const config = {
       { message: "Expected id selector to be kebab-case" },
     ],
 
+    /** Dont't error on `text-rendering` camelcase values, use `currentColor`. */
+    "value-keyword-case": ["lower", { "camelCaseSvgKeywords": true }],
+
     /** Order of keywords and nested rules. */
     "order/order": [
       [
