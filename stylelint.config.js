@@ -1,6 +1,7 @@
 const config = {
   extends: ["stylelint-config-standard", "stylelint-config-prettier"],
   plugins: ["stylelint-order"],
+  reportNeedlessDisables: true,
   rules: {
     /** Vendor prefixes should be handled by postcss autoprefixer. */
     "at-rule-no-vendor-prefix": true,
@@ -30,7 +31,7 @@ const config = {
     ],
 
     /** Dont't error on `text-rendering` camelcase values, use `currentColor`. */
-    "value-keyword-case": ["lower", { "camelCaseSvgKeywords": true }],
+    "value-keyword-case": ["lower", { camelCaseSvgKeywords: true }],
 
     /** Order of keywords and nested rules. */
     "order/order": [
