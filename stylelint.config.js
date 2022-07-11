@@ -30,6 +30,12 @@ const config = {
       { message: "Expected id selector to be kebab-case" },
     ],
 
+    /** Allow css modules `:global()` pseudo class. */
+    "selector-pseudo-class-no-unknown": [
+      true,
+      { "ignorePseudoClasses": ["global"] }
+    ],
+
     /** Dont't error on `text-rendering` camelcase values, use `currentColor`. */
     "value-keyword-case": ["lower", { camelCaseSvgKeywords: true }],
 
