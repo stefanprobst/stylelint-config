@@ -19,10 +19,10 @@ const config = {
     "hue-degree-notation": "angle",
 
     /** Overwrite defaults from `stylelint-config-standard` to allow separate `grid-template-rows` and `grid-template-columns`. */
-    "declaration-block-no-redundant-longhand-properties": [
-      true,
-      { ignoreShorthands: ["/grid/"] },
-    ],
+    "declaration-block-no-redundant-longhand-properties": [true, { ignoreShorthands: ["/grid/"] }],
+
+    /** Allow `theme` function, used e.g. by tailwind. */
+    "function-no-unknown": [true, { ignoreFunctions: ["theme"] }],
 
     /** Overwrite defaults from `stylelint-config-standard` to allow `#__next`. */
     "selector-id-pattern": [
@@ -31,13 +31,10 @@ const config = {
     ],
 
     /** Allow css modules `:global()` pseudo class. */
-    "selector-pseudo-class-no-unknown": [
-      true,
-      { "ignorePseudoClasses": ["global"] }
-    ],
+    "selector-pseudo-class-no-unknown": [true, { ignorePseudoClasses: ["global"] }],
 
     /** Dont't error on `text-rendering` camelcase values, use `currentColor`. */
-    "value-keyword-case": ["lower", { camelCaseSvgKeywords: true }],
+    "value-keyword-case": ["lower", { camelCaseSvgKeywords: true, ignoreFunctions: ["theme"] }],
 
     /** Order of keywords and nested rules. */
     "order/order": [
