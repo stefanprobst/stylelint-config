@@ -1,5 +1,5 @@
 const config = {
-  extends: ["stylelint-config-standard", "stylelint-config-prettier"],
+  extends: "stylelint-config-standard",
   plugins: ["stylelint-order"],
   reportNeedlessDisables: true,
   rules: {

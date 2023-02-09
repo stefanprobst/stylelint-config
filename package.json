@@ -1,25 +1,24 @@
 {
   "name": "@stefanprobst/stylelint-config",
-  "version": "2.5.1",
+  "version": "3.0.0",
   "main": "stylelint.config.js",
   "license": "MIT",
   "files": [
     "stylelint.config.js"
   ],
   "scripts": {
-    "format": "prettier . -l --ignore-path .gitignore",
-    "format:fix": "yarn run format --write"
+    "format:check": "prettier . --cache --check --ignore-path ./.gitignore",
+    "format:fix": "pnpm run format:check --write"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^29.0.0",
-    "stylelint-order": "^5.0.0"
+    "stylelint-order": "^6.0.1"
   },
   "devDependencies": {
-    "prettier": "^2.7.1",
-    "stylelint": "^14.14.0"
+    "prettier": "^2.8.4",
+    "stylelint": "^15.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">=14.14"
+    "stylelint": ">=15"
   }
 }
