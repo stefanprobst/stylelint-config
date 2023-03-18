@@ -1,10 +1,10 @@
 {
 	"name": "@stefanprobst/stylelint-config",
 	"version": "3.0.2",
-	"main": "stylelint.config.js",
 	"license": "MIT",
+	"main": "./stylelint.config.js",
 	"files": [
-		"stylelint.config.js"
+		"./stylelint.config.js"
 	],
 	"packageManager": "pnpm@7.29.0",
 	"scripts": {
