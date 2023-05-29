@@ -1,5 +1,13 @@
 # @stefanprobst/stylelint-config
 
+## 4.0.1
+
+### Patch Changes
+
+- [`b4ed254`](https://github.com/stefanprobst/stylelint-config/commit/b4ed2541cf14c3ab26399dda8196ba6d4b184b05)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - only use order rules from upstream
+  config
+
 ## 4.0.0
 
 ### Major Changes
