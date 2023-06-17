@@ -1,5 +1,12 @@
 # @stefanprobst/stylelint-config
 
+## 4.0.2
+
+### Patch Changes
+
+- [`aec0eb7`](https://github.com/stefanprobst/stylelint-config/commit/aec0eb7485d1cf939ff2f95c9e6db7436bfae2d9)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - add new allowEmptyInput config option
+
 ## 4.0.1
 
 ### Patch Changes
