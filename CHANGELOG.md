@@ -1,5 +1,12 @@
 # @stefanprobst/stylelint-config
 
+## 4.0.3
+
+### Patch Changes
+
+- [`fd61624`](https://github.com/stefanprobst/stylelint-config/commit/fd61624c5fc0226e63d19eb129549824057cf00d)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - allow tailwind at-rule
+
 ## 4.0.2
 
 ### Patch Changes
