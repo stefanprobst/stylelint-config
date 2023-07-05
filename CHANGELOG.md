@@ -1,5 +1,12 @@
 # @stefanprobst/stylelint-config
 
+## 4.0.4
+
+### Patch Changes
+
+- [`fdd0dc8`](https://github.com/stefanprobst/stylelint-config/commit/fdd0dc85b3c21351b2b825e10cfb98069a2e9ab0)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - bump stylelint version
+
 ## 4.0.3
 
 ### Patch Changes
