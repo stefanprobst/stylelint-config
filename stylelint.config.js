@@ -25,6 +25,14 @@ const config = {
 		/** Allow `tailwind` directive. */
 		"at-rule-no-unknown": [true, { ignoreAtRules: ["tailwind"] }],
 
+		/** Allow underscore prefix on custom properties. */
+		"custom-property-pattern": [
+			"^_?([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+			{
+				message: (name) => `Expected custom property name "${name}" to be kebab-case`,
+			},
+		],
+
 		/** Overwrite defaults from `stylelint-config-standard` to allow separate `grid-template-rows` and `grid-template-columns`. */
 		"declaration-block-no-redundant-longhand-properties": [true, { ignoreShorthands: ["/grid/"] }],
 
@@ -38,7 +46,10 @@ const config = {
 		],
 
 		/** Allow css modules `:global()` pseudo class. */
-		"selector-pseudo-class-no-unknown": [true, { ignorePseudoClasses: ["deep", "global", "slotted"] }],
+		"selector-pseudo-class-no-unknown": [
+			true,
+			{ ignorePseudoClasses: ["deep", "global", "slotted"] },
+		],
 
 		/** Dont't error on `text-rendering` camelcase values, use `currentColor`. */
 		"value-keyword-case": ["lower", { camelCaseSvgKeywords: true, ignoreFunctions: ["theme"] }],
