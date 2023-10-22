@@ -1,5 +1,16 @@
 # @stefanprobst/stylelint-config
 
+## 4.0.5
+
+### Patch Changes
+
+- [`3d6f955`](https://github.com/stefanprobst/stylelint-config/commit/3d6f955633f46b4c38124e98b6d5ddf110550bd8)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - allow deep and slotted pseudo selectors
+  supported by vue scoped styles
+
+- [`b481ff4`](https://github.com/stefanprobst/stylelint-config/commit/b481ff4c1b9ea2621bd681445e7302a6e8a9582f)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - update deps
+
 ## 4.0.4
 
 ### Patch Changes
