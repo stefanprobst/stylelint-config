@@ -1,5 +1,12 @@
 # @stefanprobst/stylelint-config
 
+## 4.0.6
+
+### Patch Changes
+
+- [`5e8c513`](https://github.com/stefanprobst/stylelint-config/commit/5e8c51374ef88ddbec9c274d066b7c0664ecbc99)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - allow longform gap properties
+
 ## 4.0.5
 
 ### Patch Changes
