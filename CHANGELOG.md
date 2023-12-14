@@ -1,5 +1,13 @@
 # @stefanprobst/stylelint-config
 
+## 5.0.0
+
+### Major Changes
+
+- [`ed7abc3`](https://github.com/stefanprobst/stylelint-config/commit/ed7abc3c8a379bcfeec9371468565b1aed99d4da)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - require stylelint v16, move config to
+  esm
+
 ## 4.0.6
 
 ### Patch Changes
