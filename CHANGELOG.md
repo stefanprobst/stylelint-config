@@ -1,5 +1,12 @@
 # @stefanprobst/stylelint-config
 
+## 5.0.1
+
+### Patch Changes
+
+- [`853ffa5`](https://github.com/stefanprobst/stylelint-config/commit/853ffa5bae7d4e77c94fff09bfba1e685d4768f4)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - update stylelint
+
 ## 5.0.0
 
 ### Major Changes
